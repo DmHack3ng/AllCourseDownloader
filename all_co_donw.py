@@ -18,7 +18,7 @@ class Finder():
         self.link_list=[]
 
     def opener(self):
-        with open("result.txt","r") as zeu:
+        with open("website.txt","r") as zeu:
             for site in zeu:
                 self.website.append(site)
 
